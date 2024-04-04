@@ -1,0 +1,23 @@
+.header{
+    @apply flex items-center justify-between px-4 md:px-8 py-6 relative bg-white max-w-[1111px] mx-auto
+}
+
+.menuBar{
+    @apply bg-dark-grey w-full h-1 block transition duration-200 ease-in-out
+}
+
+.nav{
+    @apply absolute md:relative top-24 md:top-auto left-0 md:left-auto w-[100vw] md:w-auto md:h-auto h-[calc(100vh-96px)] md:block pointer-events-none bg-dark-bg md:bg-transparent bg-opacity-50 transition duration-200 ease-in-out
+}
+
+.linksContainer{
+    @apply flex gap-4 flex-col md:flex-row text-2xl md:text-sm text-white md:text-dark-grey bg-dark-bg md:bg-transparent w-full pointer-events-auto px-4 md:px-0 py-8 md:py-0 
+}
+
+.menuHidden{
+    @apply bg-red-500
+}
+
+.link{
+    @apply hover:underline decoration-1 underline-offset-2 md:decoration-dark-grey tracking-[2px]
+}
