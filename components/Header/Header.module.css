@@ -1,13 +1,13 @@
 .header{
-    @apply flex items-center justify-between px-4 md:px-8 py-6 relative bg-white max-w-[1111px] mx-auto
+    @apply flex items-center justify-between px-4 md:px-8 xl:px-0 py-6 md:py-14 relative bg-white max-w-[1111px] mx-auto
 }
 
 .menuBar{
-    @apply bg-dark-grey w-full h-1 block transition duration-200 ease-in-out
+    @apply bg-dark-bg w-full h-1 block transition duration-200 ease-in-out
 }
 
 .nav{
-    @apply absolute md:relative top-24 md:top-auto left-0 md:left-auto w-[100vw] md:w-auto md:h-auto h-[calc(100vh-96px)] md:block pointer-events-none bg-dark-bg md:bg-transparent bg-opacity-50 transition duration-200 ease-in-out
+    @apply absolute md:relative top-[90px] md:top-auto left-0 md:left-auto w-[100vw] md:w-auto md:h-auto h-[calc(100vh-90px)] md:block pointer-events-none bg-dark-bg md:bg-transparent bg-opacity-50 transition ease-in-out z-10
 }
 
 .linksContainer{
@@ -19,5 +19,5 @@
 }
 
 .link{
-    @apply hover:underline decoration-1 underline-offset-2 md:decoration-dark-grey tracking-[2px]
+    @apply hover:underline transition ease-in-out decoration-1 underline-offset-2 md:decoration-dark-grey tracking-[2px]
 }
