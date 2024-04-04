@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${jost.className} antialiased`}>
         <Header />
-        <main className="max-w-[1111px] w-full mx-auto px-6 md:px-8">
+        <main className="max-w-[1111px] w-full mx-auto">
           {children}
         </main>
         <Footer />
