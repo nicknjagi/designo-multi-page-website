@@ -1,0 +1,11 @@
+.mobileFrameContainer {
+    @apply flex justify-center max-w-[284px] max-h-[362px] md:max-h-[380px] lg:max-h-[500px] mx-auto mt-16 bg-peach-primary lg:translate-y-10 
+}
+
+.mobileFrame {
+    @apply w-full h-auto object-cover object-top rounded-t-[48px] shadow-[20px_-40px_80px_0px_rgba(93,2,2,0.45)] relative z-20
+}
+
+.ovalPattern {
+    @apply absolute top-60 -right-28 md:right-0 md:left-[46%] md:top-64 lg:left-[55%] lg:top-[136px] scale-[1.75] z-10
+}
