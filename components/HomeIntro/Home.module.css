@@ -1,5 +1,5 @@
 .heroImgContainer{
-    @apply relative mx-auto shadow-[20px_-40px_80px_0px_rgba(93,2,2,0.45)] max-w-[284px] max-h-[375px] md:max-h-[394px] lg:max-h-[503px] rounded-t-[48px] overflow-hidden bg-peach-primary mt-24
+    @apply relative mx-auto  max-w-[284px] max-h-[375px] md:max-h-[394px] lg:max-h-[506px] rounded-t-[48px] overflow-hidden bg-peach-primary mt-24 lg:-ml-4
 }
 
 .heroImg {
@@ -10,10 +10,18 @@
     @apply absolute top-60 -right-28 md:right-0 md:left-[46%] md:top-64 lg:left-[55%] lg:top-[136px] scale-[1.75] z-10
 }
 
-.imgBlur {
-    @apply backdrop:blur transition
+.showShadow {
+    @apply shadow-[20px_-40px_80px_0px_rgba(93,2,2,0.45)] 
 }
 
-.noBlur{
-    @apply backdrop:blur-0 transition
+.noShadow{
+    @apply shadow-[20px_-40px_80px_0px_rgba(93,2,2,0)] 
+}
+
+.imgBlur{
+    @apply opacity-0
+}
+
+.noBlur {
+    @apply opacity-100
 }
