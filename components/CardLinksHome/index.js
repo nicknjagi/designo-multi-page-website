@@ -20,22 +20,24 @@ const CardLinksHome = () => {
     ]
   
   return (
-    <section className="grid gap-6 px-4 md:px-0 py-[120px]">
+    <section className="grid lg:grid-cols-2 gap-6 lg:gap-x-8 px-4 md:px-0 py-[120px]">
       <CardLink
         title={'web design'}
         imgSrc={'/image-web-design.jpg'}
         link={'/web-design'}
       />
-      <CardLink
-        title={'app design'}
-        imgSrc={'/image-app-design.jpg'}
-        link={'/app-design'}
-      />
-      <CardLink
-        title={'graphic design'}
-        imgSrc={'/image-graphic-design.jpg'}
-        link={'/graphic-design'}
-      />
+      <div className="grid gap-6">
+        <CardLink
+          title={'app design'}
+          imgSrc={'/image-app-design.jpg'}
+          link={'/app-design'}
+        />
+        <CardLink
+          title={'graphic design'}
+          imgSrc={'/image-graphic-design.jpg'}
+          link={'/graphic-design'}
+        />
+      </div>
     </section>
   )
 }
