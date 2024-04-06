@@ -1,10 +1,14 @@
+'use client'
+import { useState } from 'react'
 import styles from './Home.module.css'
 import Image from 'next/image'
 
 const HomeIntro = () => {
+    const [isImageLoading, setImageLoading] = useState(true)
+
   return (
-    <section className="relative bg-peach-primary md:px-10 pt-20 md:pt-20 lg:py-10 md:rounded-2xl lg:flex overflow-hidden">
-      <div className="flex flex-col justify-center gap-8 px-4 max-w-xl mx-auto relative z-20">
+    <section className="relative bg-peach-primary md:px-10 pt-20 md:pt-20 lg:pt-10 md:rounded-2xl lg:flex overflow-hidden">
+      <div className="flex flex-col justify-center gap-8 mb-16 px-4 max-w-xl mx-auto relative z-20">
         <h1 className="text-3xl md:text-5xl text-white font-medium">
           Award-winning custom designs and digital branding solutions
         </h1>
@@ -17,34 +21,19 @@ const HomeIntro = () => {
           LEARN MORE
         </button>
       </div>
-      <div className={styles.mobileFrameContainer}>
+      <div className={styles.heroImgContainer}>
         <Image
-          src="/assets/mobile-frame.svg"
-          width={375}
-          height={360}
-          className={`${styles.mobileFrame} md:hidden`}
-          alt="phone frame displaying an image of a vase"
-          priority
-        />
-        <Image
-          src="/assets/mobile-frame.svg"
-          width={362}
-          height={380}
-          className={`${styles.mobileFrame} hidden md:block lg:hidden`}
-          alt="phone frame displaying an image of a vase"
-          priority
-        />
-        <Image
-          src="/assets/mobile-frame.svg"
-          width={362}
-          height={500}
-          className={`${styles.mobileFrame} hidden lg:block`}
+          src="/assets/image-hero-phone.svg"
+          width={624}
+          height={913}
+          className={`${styles.heroImg}${isImageLoading? styles.imgBlur : styles.noBlur}`}
+          onLoad={() => setImageLoading(false)}
           alt="phone frame displaying an image of a vase"
           priority
         />
       </div>
       <Image
-        src="/assets/Oval-bg.svg"
+        src="/assets/home/desktop/bg-pattern-hero-home.svg"
         width={362}
         height={500}
         className={styles.ovalPattern}
