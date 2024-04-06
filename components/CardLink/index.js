@@ -9,7 +9,7 @@ const CardLink = ({title, link, imgSrc}) => {
   return (
     <article
       onClick={() => router.push(link)}
-      className="relative flex justify-center items-center h-[250px] md:h-[200px] lg:h-auto rounded-2xl after:content-[''] after:absolute after:h-full after:w-full after:hover:bg-peach-primary after:opacity-65 cursor-pointer after:rounded-2xl">
+      className="relative flex justify-center items-center h-[250px] md:h-[200px] lg:min-h-[308px] lg:h-full rounded-2xl after:content-[''] after:absolute after:h-full after:w-full after:hover:bg-peach-primary after:opacity-65 cursor-pointer after:rounded-2xl">
       <Image
         src={`/assets/home/mobile${imgSrc}`}
         width={327}
