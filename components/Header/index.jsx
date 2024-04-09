@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className={`${styles.header} ${showMenu && 'fixed md:relative w-full z-50'}`}>
       <div>
-        <Logo handleClick={handleClick}/>
+        <Logo handleClick={handleClick} img={'dark'}/>
       </div>
       <button
         onClick={handleClick}
