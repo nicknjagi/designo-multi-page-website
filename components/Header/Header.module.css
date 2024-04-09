@@ -11,7 +11,7 @@
 }
 
 .linksContainer{
-    @apply flex gap-4 flex-col md:flex-row text-2xl md:text-sm text-white md:text-dark-grey bg-dark-bg md:bg-transparent w-full pointer-events-auto px-4 md:px-0 py-8 md:py-0 
+    @apply flex gap-4 md:gap-10 flex-col md:flex-row text-2xl md:text-sm text-white md:text-dark-grey bg-dark-bg md:bg-transparent w-full pointer-events-auto px-4 md:px-0 py-8 md:py-0 
 }
 
 .menuHidden{
@@ -19,5 +19,5 @@
 }
 
 .link{
-    @apply hover:underline transition ease-in-out decoration-1 underline-offset-2 md:decoration-dark-grey tracking-[2px]
+    @apply w-fit border-b border-transparent hover:border-b-white transition ease-in-out origin-left md:hover:border-b-dark-grey tracking-[2px] 
 }
