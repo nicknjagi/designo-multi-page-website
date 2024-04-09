@@ -17,7 +17,8 @@ module.exports = {
         'peach-secondary': ' #FFAD9B',
         'dark-grey': '#333136',
         'light-grey': '#F1F3F5',
-        'dark-bg': '#1D1C1E'
+        'dark-bg': '#1D1C1E',
+        'darker-grey': '#8F8E8F'
       },
     },
   },
