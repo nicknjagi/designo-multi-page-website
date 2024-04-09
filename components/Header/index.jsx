@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <header className={`${styles.header} ${showMenu && 'fixed md:relative w-full z-50'}`}>
+    <header className={`${styles.header}`}>
       <div>
         <Logo handleClick={handleClick} img={'dark'}/>
       </div>
@@ -22,7 +22,7 @@ const Header = () => {
           className={`${styles.menuBar} ${
             showMenu && 'rotate-45 translate-y-1'
           }`}></span>
-        <span className={`${styles.menuBar} ${showMenu ? 'hidden':null}`}></span>
+        <span className={` ${showMenu ? 'hidden': styles.menuBar}`}></span>
         <span
           className={`${styles.menuBar} ${
             showMenu && '-rotate-45 -translate-y-1'
@@ -35,13 +35,13 @@ const Header = () => {
             : 'scale-x-0 origin-right opacity-0 md:scale-100 md:opacity-100'
         } ${styles.nav}`}>
         <ul className={styles.linksContainer}>
-          <li onClick={handleClick} className={styles.link}>
+          <li onClick={()=> setShowMenu(false)} className={styles.link}>
             <Link href="/about">OUR COMPANY</Link>
           </li>
-          <li onClick={handleClick} className={styles.link}>
+          <li onClick={()=> setShowMenu(false)} className={styles.link}>
             <Link href="/locations">LOCATIONS</Link>
           </li>
-          <li onClick={handleClick} className={styles.link}>
+          <li onClick={()=> setShowMenu(false)} className={styles.link}>
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
