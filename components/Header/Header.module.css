@@ -1,5 +1,5 @@
 .header{
-    @apply flex items-center justify-between fixed top-0 left-0 md:left-1/2 md:-translate-x-1/2 h-24 w-full px-4 md:px-8 xl:px-0 py-6 md:py-14 bg-white max-w-[1111px] lg:max-w-[1116px] mx-auto z-30
+    @apply flex items-center justify-between w-full px-4 md:px-8 xl:px-0 py-6 md:py-14 bg-white max-w-[1111px] mx-auto z-[100]
 }
 
 .menuBar{
