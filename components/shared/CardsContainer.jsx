@@ -1,6 +1,6 @@
-import WebDesignCard from "./WebDesignCard"
+import Card from "./Card"
 
-const WebCardsContainer = () => {
+const CardsContainer = ({cardsData}) => {
     const data = [
         {
             title: 'express',
@@ -34,11 +34,11 @@ const WebCardsContainer = () => {
         },
     ]
   return (
-    <section className="flex flex-wrap justify-center gap-10 md:gap-[30px] pt-24 px-4 md:px-0">
-        {data.map((card, index) => {
-            return <WebDesignCard key={index} {...card}/>
+    <section className="flex flex-wrap justify-center xl:justify-start gap-10 md:gap-[30px] pt-24 px-4 md:px-0">
+        {cardsData.map((card, index) => {
+            return <Card key={index} {...card}/>
         })}
     </section>
   )
 }
-export default WebCardsContainer
+export default CardsContainer
