@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Banner = ({title, content}) => {
+const Banner = ({title, content, img}) => {
   return (
     <section className="flex flex-col gap-6 justify-center text-white relative bg-peach-primary min-h-[320px] md:min-h-[252px] overflow-hidden md:rounded-2xl">
         <h1 className="capitalize font-medium text-[32px] md:text-5xl  relative z-10">{title}</h1>
@@ -14,10 +14,10 @@ const Banner = ({title, content}) => {
             alt="background pattern"
         />
         <Image
-            src="/assets/shared/desktop/bg-banner.svg"
+            src={img}
             width={202}
             height={202}
-            className='absolute top-1/2 -translate-y-1/2 right-0 lg:-right-12 h-full w-full hidden md:block'
+            className='absolute top-1/2 -translate-y-1/2 left-12 lg:left-32 min-h-full w-full hidden md:block' 
             aria-hidden={true}
             alt="background pattern"
         />
