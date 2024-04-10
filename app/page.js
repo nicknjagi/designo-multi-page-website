@@ -1,6 +1,6 @@
-import CardLinksHome from "@/components/CardLinksHome";
+import CardLinksHome from "@/components/HomeCardLinks";
 import CompanyValues from "@/components/CompanyValues";
-import Cta from "@/components/Cta";
+import Cta from "@/components/shared/Cta";
 import HomeIntro from "@/components/HomeIntro";
 
 export default function Home(props) {
