@@ -1,6 +1,6 @@
-import CardLink from "./CardLink"
+import CardLink from "./shared/CardLink"
 
-const CardLinksHome = () => {
+const HomeCardLinks = () => {
   return (
     <section className="grid lg:grid-cols-2 gap-6 lg:gap-x-8 px-4 md:px-0 py-[120px]">
       <CardLink
@@ -23,4 +23,4 @@ const CardLinksHome = () => {
     </section>
   )
 }
-export default CardLinksHome
+export default HomeCardLinks
