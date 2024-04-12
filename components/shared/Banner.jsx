@@ -11,7 +11,7 @@ const Banner = ({title, content, img}) => {
             height={202}
             className='absolute top-1/2 -translate-y-1/2 -rotate-90 right-10 scale-[1.4] md:hidden'
             aria-hidden={true}
-            alt="background pattern"
+            alt=""
         />
         <Image
             src={img}
@@ -19,7 +19,7 @@ const Banner = ({title, content, img}) => {
             height={202}
             className='absolute top-1/2 -translate-y-1/2 left-12 lg:left-32 min-h-full w-full hidden md:block' 
             aria-hidden={true}
-            alt="background pattern"
+            alt=""
         />
     </section>
   )
