@@ -11,5 +11,5 @@ button{
 }
 
 .btn-on-light {
-    @apply bg-white
+    @apply px-6 py-4 bg-peach-primary hover:bg-peach-secondary rounded-lg text-white
 }
