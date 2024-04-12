@@ -34,7 +34,7 @@ const CardsContainer = ({cardsData}) => {
         },
     ]
   return (
-    <section className="flex flex-wrap justify-center xl:justify-start gap-10 md:gap-[30px] pt-24 px-4 md:px-0">
+    <section className="flex flex-wrap justify-center xl:justify-start gap-10 md:gap-8 lg:gap-x-[30px] mt-[120px] lg:mt-40 px-4 md:px-0">
         {cardsData.map((card, index) => {
             return <Card key={index} {...card}/>
         })}
