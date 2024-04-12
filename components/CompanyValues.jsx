@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const CompanyValues = () => {
   return (
-    <section className="px-4 md:px-0 flex flex-col gap-20 md:gap-8  justify-center lg:flex-row lg:items-center">
+    <section className="px-4 md:px-0 mb-[120px] lg:mb-40 flex flex-col gap-20 md:gap-8 justify-center lg:flex-row lg:items-center">
       <article className="md:flex md:gap-12 lg:block mx-auto max-w-[350px] lg:max-w-[350px] md:max-w-max">
         <Image
           src="/assets/home/passionate.svg"
