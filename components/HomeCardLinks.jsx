@@ -2,7 +2,7 @@ import CardLink from "./shared/CardLink"
 
 const HomeCardLinks = () => {
   return (
-    <section className="grid lg:grid-cols-2 gap-6 lg:gap-x-8 px-4 md:px-0 py-[120px]">
+    <section className="grid lg:grid-cols-2 gap-6 lg:gap-x-8 px-4 md:px-0 py-[120px] lg:py-40">
       <CardLink
         title={'web design'}
         imgSrc={'/image-web-design.jpg'}
