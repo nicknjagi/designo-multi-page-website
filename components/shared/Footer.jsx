@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return ( 
-    <footer className="bg-dark-bg text-center md:text-left -mt-20 md:-mt-3 px-4 md:px-8 pt-64 md:pt-40 lg:pt-44">
+    <footer className="bg-dark-bg text-center md:text-left px-4 md:px-8 pt-64 md:pt-40 lg:pt-44">
       <div class="max-w-[1111px] mx-auto">
         <div className='flex flex-col md:flex-row md:justify-between items-center md:border-b border-[#979797] border-opacity-20 md:pb-10 md:mb-8'>
           <Logo img={'light'} />
@@ -22,7 +22,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className='md:flex md:pb-20'>
-          <div className='text-darker-grey flex flex-col md:flex-row gap-12 md:gap-48'>
+          <div className='text-darker-grey flex flex-col md:flex-row gap-12 lg:gap-48'>
             <div className='flex flex-col gap-[2px]'>
               <h4 className='font-bold'>Designo Central Office</h4>
               <p>3886 Wellington Street</p>
