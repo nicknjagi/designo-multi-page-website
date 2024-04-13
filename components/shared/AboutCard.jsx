@@ -3,7 +3,7 @@ import Image from "next/image"
 const AboutCard = ({title, content, img, alt, order}) => {
   return (
     <section className=" text-center lg:text-left max-w-[420px] md:max-w-[689px] lg:max-w-[1111px] lg:min-h-[640px] mx-auto overflow-hidden flex flex-col lg:flex-row sm:rounded-2xl">
-        <div className={`relative lg:min-w-[476px] overflow-hidden z-20 order-${order}`}>
+        <div className={`relative lg:min-w-[476px] overflow-hidden z-20 lg:${order}`}>
             <Image
               src={`/assets/about/mobile/${img}`}
               width={375}
