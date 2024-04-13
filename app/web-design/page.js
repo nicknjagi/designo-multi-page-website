@@ -54,7 +54,7 @@ const WebDesign = () => {
     },
   ];
   return (
-    <div className="text-center md:px-8 lg:px-0">
+    <div className="text-center md:px-8 xl:px-0">
       <Banner {...bannerData}/>
       <CardsContainer cardsData={cards}/>
       <CardLinks links={links}/>
