@@ -17,11 +17,11 @@ const About = () => {
       content:['As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own. Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity. We make design and technology more accessible and give you tools to measure success.','We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, we inspire audiences to take action and drive real results.'],
       img:"image-real-deal.jpg",
       alt:'a person hanging a photo on a wall',
-      order:1
+      order:'order-2'
     }
   ]
   return (
-    <div className="md:px-8 lg:px-0">
+    <div className="md:px-8 xl:px-0">
       <AboutCardIntro />
       <div className="sm:mt-6 md:mt-[120px] lg:mt-40">
         <AboutCard {...data[0]}/>
