@@ -23,7 +23,7 @@ button{
 }
 
 .map {
-    @apply h-[300px]
+    @apply h-[300px] relative z-20 h-full
 }
 
 .social a {
