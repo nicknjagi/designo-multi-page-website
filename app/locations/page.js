@@ -15,7 +15,11 @@ const Locations = () => {
       phone : '+1 253-863-8967',
       mail : 'contact@designo.co',
       img:'image-map-canada.png',
-      alt:'map of Canada'
+      alt:'map of Canada',
+      data: {
+        position:[43.6445614556155, -79.57904099426062],
+        zoom: 18
+    }
     },
     {
       country:'australia',
@@ -25,7 +29,11 @@ const Locations = () => {
       phone : '(02) 6720 9092',
       mail : 'contact@designo.au',
       img:'image-map-australia.png',
-      alt:'map of australia'
+      alt:'map of australia',
+      data: {
+        position:[-35.31507445474949, 149.13406680832904],
+        zoom: 18
+    }
     },
     {
       country:'United Kingdom',
@@ -35,7 +43,11 @@ const Locations = () => {
       phone : '078 3115 1400',
       mail : 'contact@designo.uk',
       img:'image-map-uk.png',
-      alt:'map of United Kingdom'
+      alt:'map of United Kingdom',
+      data: {
+        position:[51.73161777023627, -3.8617001931534767],
+        zoom: 18
+    }
     },
   ]
   return (
