@@ -38,7 +38,7 @@ const Footer = () => {
               <p>M : contact@designo.co</p>
             </div>
           </div>
-          <div className='flex justify-center gap-4 pt-12 md:py-0 md:mt-auto md:ml-auto'>
+          <div className='social flex justify-center gap-4 pt-12 md:py-0 md:mt-auto md:ml-auto'>
             <Link href="/">
               <Image
                 src="/assets/shared/desktop/icon-facebook.svg"
