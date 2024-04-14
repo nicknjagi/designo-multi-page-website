@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const LocationCard = ({country, img, bgRotate}) => {
   return (
@@ -19,7 +20,7 @@ const LocationCard = ({country, img, bgRotate}) => {
           alt={`${country} illustration`}
         />
         <h2 className="uppercase mt-12 mb-8">{country}</h2>
-        <button className="uppercase btn-on-light">see location</button>
+        <Link href={`/locations#${country}`} className="uppercase btn-on-light">see location</Link>
     </article>
   )
 }
