@@ -22,7 +22,14 @@ button{
     @apply lg:order-last
 }
 
-
 .map {
     @apply h-[300px]
+}
+
+.social a {
+    @apply relative w-8 h-8 flex justify-center items-center hover:scale-105 transition
+}
+
+.social a::after{
+    @apply content-[''] absolute top-0 left-0 w-full h-full hover:bg-[rgba(226,161,161,0.2)] hover:bg-blend-screen rounded-full 
 }
