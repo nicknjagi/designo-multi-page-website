@@ -1,6 +1,10 @@
 import LocationCardsContainer from "@/components/shared/LocationCardsContainer"
 import Image from "next/image"
 
+export const metadata = {
+  title: 'Contact',
+};
+
 const Contact = () => {
   return (
     <div className="text-center md:text-left md:px-8 xl:px-0">

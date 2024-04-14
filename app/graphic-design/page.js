@@ -3,6 +3,10 @@ import CardLinks from "@/components/shared/CardLinks";
 import CardsContainer from "@/components/shared/CardsContainer";
 import Cta from "@/components/shared/Cta";
 
+export const metadata = {
+  title: 'Graphic Design',
+};
+
 const GraphicDesign = () => {
   const bannerData = {
     title: 'graphic design',
