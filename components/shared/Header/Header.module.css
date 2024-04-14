@@ -1,5 +1,5 @@
 .header{
-    @apply flex items-center justify-between w-full px-4 md:px-8 xl:px-0 py-6 md:py-16 bg-white max-w-[1111px] mx-auto z-[100]
+    @apply flex items-center justify-between w-full px-4 md:px-8 xl:px-0 py-8 md:py-16 bg-white max-w-[1111px] mx-auto z-[100]
 }
 
 .menuBar{
@@ -7,7 +7,7 @@
 }
 
 .nav{
-    @apply absolute md:relative top-[75px] md:top-auto left-0 md:left-auto w-[100vw] md:w-auto md:h-auto h-[calc(100vh)] md:block bg-dark-bg md:bg-transparent bg-opacity-50 transition ease-in-out z-40
+    @apply absolute md:relative top-[96px] md:top-auto left-0 md:left-auto w-[100vw] md:w-auto md:h-auto h-[calc(100vh)] md:block bg-dark-bg md:bg-transparent bg-opacity-50 transition ease-in-out z-40
 }
 
 .linksContainer{
