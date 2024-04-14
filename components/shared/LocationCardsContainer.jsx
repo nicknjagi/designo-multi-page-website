@@ -13,7 +13,7 @@ const LocationCardsContainer = () => {
       bgRotate:''
     },
     {
-      country:'united kingdom',
+      country:'United Kingdom',
       img:'illustration-united-kingdom.svg',
       bgRotate:'-rotate-90'
     },
