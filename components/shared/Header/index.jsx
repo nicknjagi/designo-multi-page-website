@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <header className={`${styles.header} ${showMenu ? 'fixed md:relative top-0 left-0 ' : ''}`}>
+    <header className={`${styles.header} ${showMenu ? 'sticky md:relative top-0 left-0 ' : ''}`}>
       <div>
         <Logo img={'dark'}/>
       </div>
