@@ -21,3 +21,8 @@ button{
 .location section:nth-child(odd) div:nth-child(1){
     @apply lg:order-last
 }
+
+
+.map {
+    @apply h-[300px]
+}
