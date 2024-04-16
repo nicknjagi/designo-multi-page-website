@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Cta = () => {
   return (
@@ -18,7 +19,7 @@ const Cta = () => {
           our expertise can help your business grow.
         </p>
       </div>
-      <button className="btn-on-dark w-fit mx-auto lg:mx-0">GET IN TOUCH</button>
+      <Link href='/contact' className="btn-on-dark w-fit mx-auto lg:mx-0">GET IN TOUCH</Link>
     </section>
   )
 }
