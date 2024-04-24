@@ -19,14 +19,14 @@ This is a solution to the [Designo agency website challenge on Frontend Mentor](
 
 ### The challenge
 
-Users should be able to:
+Users are able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
-- Receive an error message when the contact form is submitted if:
+<!-- - Receive an error message when the contact form is submitted if:
   - The `Name`, `Email Address` or `Your Message` fields are empty should show "Can't be empty"
-  - The `Email Address` is not formatted correctly should show "Please use a valid email address"
-- **Bonus**: View actual locations on the locations page maps (we recommend [Leaflet JS](https://leafletjs.com/) for this)
+  - The `Email Address` is not formatted correctly should show "Please use a valid email address" -->
+- **Bonus**: View actual locations on the locations page maps 
 
 ### Screenshot
 
@@ -58,6 +58,7 @@ Users should be able to:
 
 ## Author
 
+- Website - [nicholasnjagi.netlify.app](https://nicholasnjagi.netlify.app)
 - Frontend Mentor - [@nicknjagi](https://www.frontendmentor.io/profile/nicknjagi)
 - Twitter - [@nick_njagi](https://www.twitter.com/nick_njagi)
 - Linkedin - [https://www.linkedin.com/in/nicholas-njagi](https://www.linkedin.com/in/nicholas-njagi)
